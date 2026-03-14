@@ -3,11 +3,13 @@
 React ve Tailwind CSS ile geliştirilmiş modern bir film takip uygulaması.
 
 ## 📸 Ekran Görüntüleri
+## Ana Ekran
 
-### Ana Sayfa
+![Ana Ekran](Ana%20Ekran.PNG)
 
+## Film Ekleme
 
-### Film Ekle
+![Film Ekleme](Film%20Ekleme.PNG)
 
 
 ## 🚀 Özellikler
