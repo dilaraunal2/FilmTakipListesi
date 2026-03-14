@@ -1,16 +1,68 @@
-# React + Vite
+# 🎬 Film Listem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React ve Tailwind CSS ile geliştirilmiş modern bir film takip uygulaması.
 
-Currently, two official plugins are available:
+## 📸 Ekran Görüntüleri
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Ana Sayfa
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Film Ekle
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Özellikler
+
+- 🎥 Film ekleme, listeleme, güncelleme ve silme (CRUD)
+- 🔍 Film adına göre arama
+- 🎭 Türe göre filtreleme (Aksiyon, Komedi, Drama...)
+- ⭐ 1-5 yıldız ile puanlama
+- ✅ İzlendi / İzlenmedi takibi
+- 🎞️ OMDB API ile otomatik film posteri çekme
+- 🌙 Koyu / Açık tema desteği
+- 💾 LocalStorage ile kalıcı veri saklama
+
+## 🛠️ Kullanılan Teknolojiler
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [OMDB API](https://www.omdbapi.com/)
+
+## 📁 Proje Yapısı
+```
+src/
+├── components/
+│   ├── MovieCard.jsx
+│   ├── MovieForm.jsx
+│   ├── SearchBar.jsx
+│   ├── FilterBar.jsx
+│   └── StarRating.jsx
+├── pages/
+│   ├── HomePage.jsx
+│   └── WatchedPage.jsx
+├── interfaces/
+│   └── movie.js
+├── App.jsx
+└── main.jsx
+```
+
+## ⚙️ Kurulum
+```bash
+# Projeyi klonla
+git clone https://github.com/dilaraunal2/FilmTakipListesi.git
+
+# Klasöre gir
+cd FilmTakipListesi
+
+# Bağımlılıkları yükle
+npm install
+
+# .env dosyası oluştur
+VITE_OMDB_KEY=api_keyini_buraya_yaz
+
+# Projeyi başlat
+npm run dev
+```
+
+## 🌐 Canlı Demo
+https://69b55960500c6f6a0495784e--grand-lollipop-ef2cb0.netlify.app/
